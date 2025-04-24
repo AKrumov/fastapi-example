@@ -33,7 +33,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### 4. Run the application
+#### 4. Copy the environment example file
+
+```bash
+cp .env.example .env
+```
+Open `.env` and adjust the configuration values as needed | change ports, logging levels, etc.
+
+#### 5. Run the application
 
 ```bash
 python main.py
