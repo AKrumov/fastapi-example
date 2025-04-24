@@ -10,3 +10,31 @@ A minimal FastAPI example project designed as a clean foundation to build real-w
 - **Uvicorn** – ASGI server for running the FastAPI app
 - **Structured application layout** – separates concerns into `services`, `config`, `schemas`, `models`, etc.
 - **Simple logger** – reusable, configurable logging setup
+
+### 🚀 Getting Started
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/AKrumov/fastapi-example.git
+cd fastapi-example
+```
+
+#### 2. Clone the repository
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Run the application
+
+```bash
+python main.py
+```
